@@ -30,20 +30,25 @@ PHP, Javascript, HTML, CSS, Mysql
 ## INSTALLATION
 * Firstly fork full project
 * Then download mysql from (https://www.mysql.com/downloads/)
-* Go to db folder and Login with root
+* Then install WAMP server from (https://sourceforge.net/projects/wampserver/) or you can also donwload XAMPP server
+* Copy whole project files in wamp/www/ folder
+* Go to db folder and Login mysql with root by commnad
+```
+mysql -uUSERNAME -pPASSWORD
+```
 * Then make a user in mysql from command if you want
-'''
+```
 CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'password';
 GRANT ALL PRIVILEGES ON * . * TO 'newuser'@'localhost';
-'''
+```
 * Login with your created user and make database by command
-'''
+```
 create database database_name;
 use database;
-'''
+```
 * Then import the sql file in your database so all the tables are setup in your database
-'''
+```
 source sql_file_name;
-'''
-
-
+```
+* Run wamp server and wait until all services get activated
+* Write the url of registration page and now your project is installed and you can start to use it
