@@ -52,3 +52,10 @@ source sql_file_name;
 ```
 * Run wamp server and wait until all services get activated
 * Write the url of registration page and now your project is installed and you can start to use it
+
+## Links
+* Student Registration Page : [Student Registration](http://projectapprovalsystem.000webhostapp.com/projectApprovalSystem/studentRegistrationPage.html)
+* Student Login Page : [Student Login](http://projectapprovalsystem.000webhostapp.com/projectApprovalSystem/studentLoginPage.php)
+* Faculty Registration Page : [Faculty Registration](http://projectapprovalsystem.000webhostapp.com/projectApprovalSystem/facultyRegistration.php)
+* Faculty Login Page : [Faculty Login](http://projectapprovalsystem.000webhostapp.com/projectApprovalSystem/facultyLogin.php)
+* My Portfolio : [Vinay Jain](http://vinayjain.herokuapp.com/)
