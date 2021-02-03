@@ -60,7 +60,7 @@ if(isset($_POST['submit']))
 		}
 		if($isEmailVerified==="N")
 		{
-		    header("location:emailVerification.html");
+		    header("location:emailVerification.php");
 		    return;
 		}
 		else

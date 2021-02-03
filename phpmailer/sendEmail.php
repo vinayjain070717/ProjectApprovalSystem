@@ -43,8 +43,8 @@ $pin=mt_rand(10000,99999);
 echo $pin;
 $mail->isHTML(true);                                  // Set email format to HTML
 
-$mail->Subject = 'Here is the subject';
-$mail->Body    = 'Your pin for project Approval System is '.$pin;
+$mail->Subject = 'Please verify group email';
+$mail->Body    = 'Registration of your group require further verification<br>Your OTP for verification : '.$pin;
 $_SESSION["verificationToken"]=$pin;
 //$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 

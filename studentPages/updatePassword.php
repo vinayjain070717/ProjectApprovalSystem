@@ -1,4 +1,6 @@
 <?php
+include '..\db.php';
+
 session_start();
     echo "good";
     $currentPassword=$_POST['currentPassword'];
